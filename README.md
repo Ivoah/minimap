@@ -17,10 +17,12 @@ minimap.py [-o OUTPUT [OUTPUT ...]] [-l LANGUAGE] [-s STYLE] [-w WIDTH]
 
 ## Options
 
-* -o            Output file (or files). Must come after input files if listing multiple
-* -l            Select language to highlight for (if it can't autodetect)
-* -s            Select highlighting style (use `-s list` to list all styles)
-* -w            Width of each character in pixels
-* -h            Height of each character in pixels
-* --spacing     Number of pixels to insert between rows
-* --overwrite   Overwrite output file if it already exists
+```
+-o            Output file (or files). Must come after input files if listing multiple
+-l            Select language to highlight for (if it can't autodetect)
+-s            Select highlighting style (use `-s list` to list all styles)
+-w            Width of each character in pixels
+-h            Height of each character in pixels
+--spacing     Number of pixels to insert between rows
+--overwrite   Overwrite output file if it already exists
+```
