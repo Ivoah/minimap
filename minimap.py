@@ -10,14 +10,14 @@ from PIL import Image, ImageDraw
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(add_help = False)
-    parser.add_argument('files', nargs = '+')
-    parser.add_argument('-o', '--output', nargs = '+')
+    parser = argparse.ArgumentParser(add_help=False)
+    parser.add_argument('files', nargs='+')
+    parser.add_argument('-o', '--output', nargs='+')
     parser.add_argument('-l', '--language', '--lang')
-    parser.add_argument('-s', '--style', default = 'monokai')
-    parser.add_argument('-w', '--width', type = int, default = 3)
-    parser.add_argument('-h', '--height', type = int, default = 5)
-    parser.add_argument('--spacing', type = int, default = 1)
+    parser.add_argument('-s', '--style', default='monokai')
+    parser.add_argument('-w', '--width', type=int, default=3)
+    parser.add_argument('-h', '--height', type=int, default=5)
+    parser.add_argument('--spacing', type=int, default=1)
     parser.add_argument('--overwrite', action="store_true")
 
     args = parser.parse_args()
