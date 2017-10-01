@@ -1,13 +1,14 @@
-import argparse
-import os.path
 import sys
+import os.path
+import argparse
 
 import pygments
-import pygments.formatter
-import pygments.lexers
 import pygments.styles
-from PIL import Image, ImageDraw
+import pygments.lexers
+import pygments.formatter
 
+from PIL import Image
+from PIL import ImageDraw
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(add_help = False)
