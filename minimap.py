@@ -64,8 +64,8 @@ if __name__ == '__main__':
             if token == '\n':
                 x = 0
                 y += args.height + args.spacing
-            elif set(token) == {' '}:
-                x += len(token)*args.width
+            elif set(token).issubset({' ', '\t'}):
+                x += token.count(' ')*args.width + token.count('\t')*args.width*4
             else:
                 draw.rectangle([(x, y), (x + len(token)*args.width - 1, y + args.height - 1)], colors[ttype])
                 x += len(token)*args.width
