@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import sys
 import os.path
 import argparse
@@ -19,6 +20,7 @@ if __name__ == '__main__':
     parser.add_argument('-w', '--width', type = int, default = 3)
     parser.add_argument('-h', '--height', type = int, default = 5)
     parser.add_argument('--spacing', type = int, default = 1)
+    parser.add_argument('--tab-width', type = int, default = 4)
     parser.add_argument('--overwrite', action="store_true")
 
     args = parser.parse_args()
@@ -61,13 +63,17 @@ if __name__ == '__main__':
         x = 0
         y = 0
         for ttype, token in tokens:
-            if token == '\n':
-                x = 0
-                y += args.height + args.spacing
-            elif set(token).issubset({' ', '\t'}):
-                x += token.count(' ')*args.width + token.count('\t')*args.width*4
-            else:
-                draw.rectangle([(x, y), (x + len(token)*args.width - 1, y + args.height - 1)], colors[ttype])
-                x += len(token)*args.width
+            print(repr(token))
+            for c in token:
+                if c == '\n':
+                    x = 0
+                    y += args.height + args.spacing
+                elif c == ' ':
+                    x += args.width
+                elif c == '\t':
+                    x += args.width*args.tab_width
+                else:
+                    draw.rectangle([(x, y), (x + args.width - 1, y + args.height - 1)], colors[ttype])
+                    x += args.width
 
         img.save(output)
