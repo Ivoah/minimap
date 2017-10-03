@@ -63,7 +63,6 @@ if __name__ == '__main__':
         x = 0
         y = 0
         for ttype, token in tokens:
-            print(repr(token))
             for c in token:
                 if c == '\n':
                     x = 0
