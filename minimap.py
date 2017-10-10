@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 import sys
 import os.path
 import argparse
@@ -11,7 +12,8 @@ import pygments.formatter
 from PIL import Image
 from PIL import ImageDraw
 
-if __name__ == '__main__':
+
+def main():
     parser = argparse.ArgumentParser(add_help = False)
     parser.add_argument('files', nargs = '+')
     parser.add_argument('-o', '--output', nargs = '+')
@@ -76,3 +78,7 @@ if __name__ == '__main__':
                     x += args.width
 
         img.save(output)
+
+
+if __name__ == '__main__':
+    main()

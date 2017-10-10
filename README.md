@@ -8,6 +8,19 @@ Generate minimaps of your code
 
 `minimap.py` requires Python 3.6 or greater
 
+## Installation
+You can install directly via pip
+```shell
+$ pip install minimap
+```
+
+Or from the [github](https://github.com/Ivoah/minimap) repository (master branch by default)
+```shell
+$ git clone https://github.com/Ivoah/minimap
+$ cd minimap
+$ sudo python setup.py install
+```
+
 ## Usage
 
 ```
