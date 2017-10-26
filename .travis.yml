@@ -4,6 +4,20 @@ python:
 
 script: minimap.py --overwrite minimap.py
 
+python:
+  - "3.6"
+  - "3.6-dev" # 3.6 development branch
+  - "3.7-dev" # 3.7 development branch
+  - "nightly"
+
+install:
+  - pip install -r requirements.txt
+
+script:
+  - pip install -U pip setuptools wheel
+  - python setup.py build
+  - python setup.py install
+
 deploy:
     provider: pypi
     user: ivoah
