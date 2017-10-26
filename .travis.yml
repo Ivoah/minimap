@@ -1,5 +1,5 @@
 deploy:
-    provider: pypi
-    user: "ivoah"
-    password:
-        secure: "Your encrypted password"
+  provider: pypi
+  user: ivoah
+  password:
+    secure: Cztduk1IqNCIdM5hAGieAuWsUhznF3tKmtuMlG/LTGRaK0mKkPW7qpET+oNa2YTY+O4dIV5Q/ZuPtSzMcZEk32XmQODJXpLJLTk4UMwxQG6C/zV2a6MJAMQK/AuQHKFYcvB17612SGcrjeFlduNne7KUZ7dgiLOAyrafKEjvib9xBqa8vckA1CDBOakHB2N+qfgf/yCv+4pjIyyGW/ZkDfQWKoU0/+8P1+GOTHU7hw4czCuNygam7IET+oXWs8Na5avtMC3fEiZ4Mfot1K5eU7hXA+mf+kkzXPh9FEmXiB+yG1Cd3BnSSjHeFy2mjg0GBwKNliNqDVmVQLwIeEeaary2MlEst3GMhBX0LywnxudOBDqwDAqAtWV+PzCCf5jMR8VQYxG1pDV0Z0ZgDip5JdLGkbWI/k/76ywba2YHImM850phLcv+hAe9+6T7wQoRP7RL3KpsVlElXCAiaWSUIiQHo5RZx48JpUlA3Ef6sLbKNVakR1uzUjxfYcBW2t7vC7Ev2xN7mFT5EYH6MfZ8vLpSes8+rPOyBd7RJaSRtHhvXfLBWnskrWmMfqW7RmT9K/D0UXGTalPOOXPpEKELVXlsLH9wZqeZh+abJ8qPvKBEoy37D/cq5S6xVlue0dkgD85XMoljvlyCrCWkcJfTa9cW/h7fua04QDQN+zqt9WE=
