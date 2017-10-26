@@ -1,0 +1,5 @@
+deploy:
+    provider: pypi
+    user: "ivoah"
+    password:
+        secure: "Your encrypted password"
