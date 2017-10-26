@@ -1,2 +1,2 @@
-Pillow==4.2.1
-Pygments==2.2.0
+Pillow>=4.2.1
+Pygments>=2.2.0
