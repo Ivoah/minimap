@@ -1,5 +1,7 @@
 # minimap
 
+[![Build Status](https://travis-ci.org/Ivoah/minimap.svg?branch=master)](https://travis-ci.org/Ivoah/minimap)
+
 Generate minimaps of your code
 
 ![example](https://raw.githubusercontent.com/Ivoah/minimap/master/minimap.png)
