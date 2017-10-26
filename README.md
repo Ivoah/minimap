@@ -1,6 +1,7 @@
 # minimap
 
 [![Build Status](https://travis-ci.org/Ivoah/minimap.svg?branch=master)](https://travis-ci.org/Ivoah/minimap)
+[![PyPI version](https://badge.fury.io/py/minimap.svg)](https://badge.fury.io/py/minimap)
 
 Generate minimaps of your code
 
