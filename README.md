@@ -14,6 +14,7 @@ Generate minimaps of your code
 ## Installation
 You can install directly via pip
 ```shell
+$ pip install -U setuptools # upgrade setuptools to install minimap
 $ pip install minimap
 ```
 
@@ -27,7 +28,7 @@ $ sudo python setup.py install
 ## Usage
 
 ```
-minimap.py [-o OUTPUT [OUTPUT ...]] [-l LANGUAGE] [-s STYLE] [-w WIDTH]
+minimap [-o OUTPUT [OUTPUT ...]] [-l LANGUAGE] [-s STYLE] [-w WIDTH]
            [-h HEIGHT] [--spacing SPACING] [--overwrite] files [files ...]
 ```
 
