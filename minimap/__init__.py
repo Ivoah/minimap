@@ -12,7 +12,6 @@ import pygments.formatter
 from PIL import Image
 from PIL import ImageDraw
 
-
 def main():
     parser = argparse.ArgumentParser(add_help = False)
     parser.add_argument('files', nargs = '+')
@@ -78,7 +77,6 @@ def main():
                     x += args.width
 
         img.save(output)
-
 
 if __name__ == '__main__':
     main()
